@@ -88,12 +88,3 @@ Lecture Notes
     * Some rumors about business decisions not being in line with model recommendations
 
 
-
-Some ideas for the Group Product Proposal
-
-Submit a one-page proposal for your group product (as PDF). This is the product your group will develop and demo at the end of the semester. Keep the description short and address some of the concepts presented in class 2.
-
-Consider project ideas from these sources, while mostly focused on deep learning solutions they are a good starting point to consider;
-
-
-
