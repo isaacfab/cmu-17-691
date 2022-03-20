@@ -70,7 +70,18 @@ Lecture Notes
     * Zillow tried to use the Zestimate to buy homes but after 8 months, shut down the home buying business
     * Challenges was to forecast home prices with a 3-6 month horizon
   * Invaluable Data Science Lessons To Learn From The Failure of Zillow’s Flipping Business
-    * Blocked premium accounts for our group
+    * As the amount of Zillow's amount home data increased the quality of their models degraded
+      * Data quality issues - Zillow relied on both public and user data
+        * A relatively small data quality issue with accuracy problems results in a large monetary loss
+        * Data Quality is hugely important - use metrics to measure data quality
+      * Dependency on  algorithms
+        * Where predicitons are critical use model outputs shouldn't be used to make decisions, only as supplemental information
+      * Gaming the system
+        * Utilize a fraud prevention team to ensure the domain isn't being manipulated fraudulently
+      * Selective Focus
+        * Study data science problems holistically from many perspectives before and after implementing a model
+      * External Factors
+        * Diversify risk and make efforts to account for external factors (e.g. labor costs rising/falling)
   * Reddit Thread
     * Mentions various issues with the underlying data that powered the algorithm
     * Mistrained the model on an bull market for housing
