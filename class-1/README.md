@@ -42,20 +42,27 @@ Lecture Notes
   * Alan Turning
      * Famous for Turning test and Turning machines
      * Google example of passing the Turing Test
+     * the value incentive of the internal researchers and the external users are misaligned. the ways external users can use the service may be different than what internal researchers had intended for it to be used
   * Zillow and Opendoor
     * Zillow – real time information about housing in Pittsburgh
     * Tried to buy houses that were underpriced
  * Opendoor – we can do better. Buying houses that are underpriced and flipping them
+    * Opendoor thought they could be better at predicting prices relative to Zillow
     * Lost too much money and decompose that from a ML perspective
- * Key Class Takeaways
+ * Key Class Takeaways on Opendoor
    * Less reliance on ML
-   * Incorporate other business metrics to improve business metrics
+   * Incorporate other business metrics to improve business decision making
    * Misapplication of the actual algorithm
    * Unstable/inaccurate data
-   * More human expert inputs – local experts of the market, manual inspections
-   * Lack of data
+   * More human expert inputs – local experts of the market, manual inspections - could have improved decision making for Opendoor
+   * Lack of quality data - better, higher quality data and more features introduced to the model will improve results
+   * Manual price overrides from humans would be a good feature to have
    * Issues with data collection processes
-   * Data skew?
+   * Data skew would impact model results
+   * Edge case scenarios - e.g. unforseen circumstances - were not accounted for
+   * More model testing would have improved outcome of Opendoor
+   * Did not take into account unquantifiable variables into the model
+   * Algorithm architecture affects model results. look at the mechanisms to address issues on the fly
 * Reading Notes
   * Data Scientist: The Sexiest Job of the 21st Century
     * Goldman of LinkedIn developed a key feature with the backing of then CEO, who realized the power of analytics from previous ventures, to improve LinkedIn’s click through rate by over 30%
@@ -86,5 +93,4 @@ Lecture Notes
     * Mentions various issues with the underlying data that powered the algorithm
     * Mistrained the model on an bull market for housing
     * Some rumors about business decisions not being in line with model recommendations
-
 
