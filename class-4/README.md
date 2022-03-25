@@ -10,7 +10,7 @@ Philosophical/Programmatical consideration. What are you doing, and why?
     - DataOps: Automation, Data pipelines
 - Data Science
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b981dd48-6766-4279-a40b-2e7fcd3d0b4f/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/85018020/160034401-8f448791-5d04-42e7-b14a-36f681179fa0.png)
     
     - MLOps: Places for automation, testing, evaluation
     - **Focus for today**: Baseline Model. How to set up the system to test the feasibility of the approach?
@@ -18,7 +18,7 @@ Philosophical/Programmatical consideration. What are you doing, and why?
     - DevOps: Movement towards containerized applications. Combining Development with Operations with high levels of automation.
     
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4728fb47-d7b3-4a25-9ff8-96ae2c1daec1/Untitled.png)
+![image](https://user-images.githubusercontent.com/85018020/160034425-7eeacc61-b037-4a81-8570-caf661a6428f.png)
 
 - Ask Questions
 - Collect and Label Data
@@ -44,7 +44,7 @@ Measuring the value of your ML product
     - What is possible?
     - Is the problem too challenging?
         - eg., ground autonomy. The vehicle can move from on-road to off-road dynamically (on the fly). It May sound trivial but extremely difficult in practice.
-    - Readily available solutions [paperswithcode](https://paperswithcode.com)
+    - Readily available solutions [PapersWithCode](https://paperswithcode.com)
         - What is the closest to best-performing model right now?
         - Feasibility analysis using these resources
 - Build a smaller model using a 100-1000 example labeled dataset
@@ -65,14 +65,14 @@ Measuring the value of your ML product
     - Are edge cases handled well?
 - Cost Function
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/afef7eea-cd1b-4bf9-8089-f9c42ea3e4dd/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/85018020/160034474-4b59628b-54d8-47e1-9fb2-e8cf296a5dd8.png)
     
     - Does your optimization function make sense?
     - Squared Error is very sensitive to outliers. Different approaches to optimization will lead to different results.
     - DL models do not come with explainability. Adjust cost function to include uncertain components. It can be used as a tool to judge the quality of your prediction (adds some explainability).
 - Confusion Matrix
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c751d66b-0b55-4432-a910-9b64d59c160d/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/85018020/160034499-6a36753e-acb8-4f8c-b229-1e6562166041.png)
     
 - Accuracy, Precision, Recall: Which is the right one? Or do you pick a combo? There is a trade-off.
     - Combining Metrics
@@ -91,7 +91,7 @@ Measuring the value of your ML product
         - Start with the most basic cost function to get to proof of concept.
         - Don’t go too sophisticated too quick.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71b58f0b-ee74-4d3e-95e6-7190e73fc2e5/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/85018020/160034514-a9c41afe-62bf-4a33-86b2-35cba7495a92.png)
     
 - Baseline Ideas
     - Low cost lower bound
@@ -147,7 +147,7 @@ Measuring the value of your ML product
     - Not much control over quality
     - Often times this is okay and can be overcome with lots of good data
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ebbe6cb-801f-4f18-9384-50bf822f0b9d/Untitled.png)
+![image](https://user-images.githubusercontent.com/85018020/160034531-6bb63185-9535-42d0-bfa6-84155a6e8bba.png)
 
 - Automate either all of it or a piece of it with AutoML.
 - You don’t have to use all of the AutoML features.
@@ -161,6 +161,6 @@ Measuring the value of your ML product
 
 - Outlines several rules for building ML products
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/411160e0-ac7e-4f72-a551-2b917013d8f9/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/85018020/160034558-e49a1e22-b2f0-40cc-a5f8-bff1018ad211.png)
     
 - Can be used as a skeleton for making sure your ML project is headed in the right direction. All the way from problem recognition to maintaining and measuring the performance of your model.
