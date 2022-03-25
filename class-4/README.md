@@ -1,8 +1,9 @@
-# Lecture 4 - Do you even ML bro?
+# Lecture 4 - Baselines: Do you even ML bro?
 
-# Focus: Foundations
+## Focus: Foundations
 
-Philosophical/Programmatical consideration. What are you doing, and why?
+Philosophical/Programmatical consideration. What are you doing, and why?  
+
 
 # ML Project Workflow
 
@@ -117,24 +118,6 @@ Measuring the value of your ML product
         - Deep learning, search through different architectures
         - A good ML Engg can almost always beat AutoML
 
-# In-Class Exercise
-
-- What are the benefits and drawbacks of using a heuristic as a baseline?
-    - (+) Gives you an easy to generate and understanding starting point that your ML solution must beat
-    - (-) A good heuristic can sometimes be too complex. A simple ML model might be a better choice at this point.
-- What is an important takeaway about baseline models according to Google’s ML Product Rules 1-4?
-    - Start small and simple. Focus on system design and a robust infrastructure first before pursuing baseline models
-    - A good amount of thought needs to be given to understanding the problem
-    - Choosing simple features can help get a good baseline ML model. Model explainability and interpretation is important at this stage.
-- Choose one of the AutoML products from your reading. How much do they align with the AutoML paper? What portion of the ML Workflow is covered?
-    - The paper outlines all the steps that an ideal AutoML solution would follow. It offers various techniques that such a solution could take. For example, the data
-    the cleaning process can be approached as either a boosting problem or a hyperparameter search problem.
-    - Google’s VertexAI pushes data cleaning more towards the user than the paper suggests. It expects relatively clean data
-    - Vertex AI also adds some wrappers and tools on top as “extra features” Eg, TensorBoard allows you to visualize metrics, analyze model weights, biases, etc.
-    - Other features added include edge computing, CI/CD integration, SageMaker Studio for development, and others.
-- What are the benefits and drawbacks of using AutoML as a baseline?
-    - Easy to obtain, no expertise needed
-    - You give up on interpretability for a better baseline.
 
 # AutoML
 
@@ -153,14 +136,87 @@ Measuring the value of your ML product
 - You don’t have to use all of the AutoML features.
     - Pick and choose what is valuable to you for your use case.
 
+# In-Class Exercise
+
+- What are the benefits and drawbacks of using a heuristic as a baseline?
+    - (+) Gives you an easy to generate and understanding starting point that your ML solution must beat
+    - (-) A good heuristic can sometimes be too complex. A simple ML model might be a better choice at this point.
+- What is an important takeaway about baseline models according to Google’s ML Product Rules 1-4?
+    - Start small and simple. Focus on system design and a robust infrastructure first before pursuing baseline models
+    - A good amount of thought needs to be given to understanding the problem
+    - Choosing simple features can help get a good baseline ML model. Model explainability and interpretation is important at this stage.
+- Choose one of the AutoML products from your reading. How much do they align with the AutoML paper? What portion of the ML Workflow is covered?
+    - The paper outlines all the steps that an ideal AutoML solution would follow. It offers various techniques that such a solution could take. For example, the data
+    the cleaning process can be approached as either a boosting problem or a hyperparameter search problem.
+    - Google’s VertexAI pushes data cleaning more towards the user than the paper suggests. It expects relatively clean data
+    - Vertex AI also adds some wrappers and tools on top as “extra features” Eg, TensorBoard allows you to visualize metrics, analyze model weights, biases, etc.
+    - Other features added include edge computing, CI/CD integration, SageMaker Studio for development, and others.
+- What are the benefits and drawbacks of using AutoML as a baseline?
+    - Easy to obtain, no expertise needed
+    - You give up on interpretability for a better baseline.
 # Readings
 
-## **Best Practices for ML Engineering**
+## Google's Best Practices for ML Engineering
 
-[https://developers.google.com/machine-learning/guides/rules-of-ml](https://developers.google.com/machine-learning/guides/rules-of-ml) 
+[Wesbiste](https://developers.google.com/machine-learning/guides/rules-of-ml) 
 
 - Outlines several rules for building ML products
     
     ![image](https://user-images.githubusercontent.com/85018020/160034558-e49a1e22-b2f0-40cc-a5f8-bff1018ad211.png)
     
 - Can be used as a skeleton for making sure your ML project is headed in the right direction. All the way from problem recognition to maintaining and measuring the performance of your model.
+- Can be used a checklist or a sanity check
+
+## AutoML: A survey of the state-of-the-art 
+[Paper](https://www.sciencedirect.com/science/article/pii/S0950705120307516#tbl1)
+
+- This paper presents a comprehensive and up-to-date review of the state-of-the-art (SOTA) in AutoML.
+- Talks about how the entire ML pipeline can be automated, end-to-end. 
+- Introduces how each step of the pipeline can be treated as a distinct ML problem. For example, the data cleaning process can be looked at as either a boosting problem or a hyperparameter search problem. 
+
+### Data Preparation
+- Data Collection 
+    - Data Searching  
+    Finding additional data on the web
+    - Data Synthesis  
+    Creating data that simulates real world data, without actually going into the real world. Eg, autonomous vehicles cannot always be tested for everything. Synthetic data is helpful here.
+- Data Cleaning
+    - Boosting Problem
+    - Hyperparameter Search Problem
+- Data Augmentation  
+Generate new data based on existing data  
+Avoid overfitting
+
+### Feature Engineering
+- Feature Selection  
+Search for important features using a search strategy (complete search, heuristic search, and random search)
+- Feature Construction  
+Create new features from the basic feature space
+- Feature Extraction  
+Dimensionality Reduction, PCA
+
+### Model Generation
+- Search Space  
+ The search space defines the design principles of neural architectures. Different scenarios require different search spaces. 
+ - Architecture Optimization Method  
+ Efficiently find the model architecture with high performance after the search space is defined.
+ - Hyperparemter Optimization Method  
+    - Grid/Random Search
+    - Bayesian optimization
+    - Gradient-based optimization
+ - Model Evaluation Method  
+ Once a model is generated, how do you evaluate it? 
+
+ ### NAS
+- Discussion on the performance comparison of different techniques
+- One stage vs two stage methods
+- One shot vs weight sharing
+- Joint hyperparameter and architecture optimization
+- Resource-aware NAS
+
+## Tools in AutoML
+- [Google VertexAI](https://cloud.google.com/vertex-ai/docs/beginner/beginners-guide/)
+- [AWS AutoML](https://aws.amazon.com/machine-learning/automl/)
+- [AWS Rekognition](https://aws.amazon.com/rekognition/)
+
+These tools provide commercial read-to-use off the shelf solutions for building ML models with relatively clean datasets. In the industry, it is a widely accepted practice to use an AutoMl tool for setting a baseline ML model. This sets a good goal to beat with your ML product (that is of course, after you are sure that ML is indeed the solution)
