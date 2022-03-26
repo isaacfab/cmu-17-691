@@ -14,14 +14,22 @@ Prerequisites: understanding of basic machine learning concepts (i.e. supervised
 
 ## Groups
 
-**Group 1**
-- Steve Choi
-- David Good
+- **Group 1 (March 15th | Lecture 1)**
+    - Steve Choi
+    - David Good
 
-**Group 2 (March 17th | Lecture 2)**
-- Akshay Bahadur
-- Kedar Deshpande
-- Yifan Zhuo
-- Wei Ziyuan
+- **Group 2 (March 17th | Lecture 2)**
+    - Kedar Deshpande
+    - Wei Ziyuan
+
+- **Group 3 (March 22nd | Lecture 3)**
+    - Connie He
+    - Huilin Xiong
+    - Phoebe Li
+
+- **Group 4 (March 24th | Lecture 4)**
+    - Aditya Bindra
+    - Akshay Bahadur
+    - Naman Arora
 
 #### Made with ❤️ and 🦙 by Team MLP
