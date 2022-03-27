@@ -79,3 +79,59 @@ Secondly, she mentioned data scientists usually work on several “products” a
 Thirdly, the author mentions that Data scientists do not always need a product owner. And take ownership away. The author believes that even if two data scientists are working on the same project, in my opinion, each one should still own different parts of the project. 
 Finally, the author mentioned the Scrum is and Sprint functions are not user-friendly for data scientists. 
 Alternatively, the author believes that for most data science works. The best way to maintain the data science project is to create documentations with transparency. 
+
+### Lecture Notes: 
+#### Data Focused Projects: 
+Data projects have a broad range of complexity and purposes. 
+
+#### Data Project Types: 
+AI, Prescriptive, 
+
+#### Organizational Data Strategy:
+Companies and organizations have a document data strategy, providing visions and goals, criterias of selecting data projects. 
+
+#### AI Index Report:
+Summary of trendy topics in AI. Some examples include private investment in AI, cross-border collaboration, and AI ethics . Data is often the focus when improving model performance
+
+#### Hugging Face: 
+AI products community 
+
+#### CRISP-DM:
+Cross industry standard process for data mining. Workflow starts from understanding problems, preparing problems, and deploying models.
+
+#### Data Science Process Workflow:
+Problem, acquire, parse, filter, mine, represent, refine, interact, solution
+Simplified version becomes: business question, munge, model, visualize (outcome), solution
+
+#### Problem Definition - Fog of War:
+There are decisions that need to be made under the fog (unknown), which determine the outcome of war (project). The goal is to reduce the uncertainty of decision (fog), and understand the value provided by reduced uncertainty.
+
+#### Problem Definition - User Discovery:
+The user discovery process usually happens before development of the project. Four types of user discovery processes: interviews, focus groups, surveys, MVP user testing and feedback. 
+
+### In Class activities summaries: 
+#### Data Project Checklist Important Questions: 
+1. Exec experience? 
+2. What the most import strategics
+3. How are Data Scientists recruited?
+4. How actions connected to result?
+5. What data is available?
+6. What systems are available, is there any major shift/change within the organization?
+7. When is refactoring performed on code? How is correctness and performance of models maintained and validated during refactoring?
+8. Reconsider why the model is successful, why did it work or why it didn’t work?
+9. How to track the effectiveness of a model? Perhaps market has changed and the model is no longer valid, determine frequency need to calibrate and test the existing model
+10. Determine ROI of the project, what is the business value the models ill bring to the organization?
+
+#### Jeremy Howard: 
+Fast.ai is a good resource to read on to pick up. His work mostly focus on high-end products.
+
+#### Basic ML Project Workflow:
+Problem Definition, data curation and labeling, data modeling, model deployment & monitoring.
+
+#### Data Flywheel - Data Network effects:
+More users lead to more data, smarter algorithms, better products, eventually lead to more users. 
+
+#### Challenges with ML Projects:
+There might be poor problem scoping, lack of access to reliable data and data labeling, lack of architecture design to support scale, and unaligned value proposition.
+
+
