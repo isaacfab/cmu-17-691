@@ -12,7 +12,7 @@ Component
 
 Data Owners: Chief Information Officer, Chief Data Officer, IT System Owner, Product Manager.
 
-Data Steward / Custodian: Data Engineer, Data Analyst, Data Scientist, Software Developer.
+Data Steward / Custodian: Data Engineer, Database Administrator, Data Analyst (Self Serve Data Analyst) , Data Scientist (Citizen Data Scientist), Software Developer.
 
 
 ### Collaboration
