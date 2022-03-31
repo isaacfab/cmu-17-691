@@ -1,6 +1,6 @@
 # Class notes
 
-#Lecture 5: Tools and Infrastructure
+# Lecture 5: Tools and Infrastructure
 
 MLOps
 “The extension of the DevOps methodology to include Machine Learning and Data Science assets at first-class citizens within the DevOps ecology”.
@@ -48,9 +48,9 @@ Domino Data Lab: https://www.dominodatalab.com (ML Ops)
 
 
 
-#Article Summaries:
+# Article Summaries:
 
-##MLOps: Motivation by INNOQ:
+## MLOps: Motivation by INNOQ:
 https://ml-ops.org/content/motivation
 
 There is predicted to be two major trends that will disrupt the economy/our lives
@@ -71,7 +71,7 @@ There are issues with data quality, decay of the model over time, and locality.
 MLOps definition: the extension of the DevOps methodology to include Machine Learning and Data Science assets as first-class citizens within the DevOps ecology. Covers all aspects of machine learning deployment, and has evolved significantly over time as these issues have been realized.
 
 
-##The Cost of Cloud, a Trillion Dollar Paradox by Sarah Wang and Martin Casado
+## The Cost of Cloud, a Trillion Dollar Paradox by Sarah Wang and Martin Casado
 https://a16z.com/2021/05/27/cost-of-cloud-paradox-market-cap-cloud-lifecycle-scale-growth-repatriation-optimization/
 
 The cloud represents a significant shift in computing, growing significantly in capital and scale.
@@ -91,7 +91,7 @@ Plan for repatriation
 Incrementally repatriate
 Huge opportunity in optimizing code/updating cloud hardware.
 
-##Emerging Architectures for Modern Data Infrastructure by Matt Bornstein, Martin Casado, and Jennifer Li
+## Emerging Architectures for Modern Data Infrastructure by Matt Bornstein, Martin Casado, and Jennifer Li
 https://future.a16z.com/emerging-architectures-modern-data-infrastructure/
 
 Updated diagram of data infrastructure.
@@ -131,7 +131,7 @@ Data apps:
 Surge in new data infrastructure products
 Easier to adopt new data applications
 
-##Databricks Blog Post About Snowflake, Mostafa Mokhtar, et. al.
+## Databricks Blog Post About Snowflake, Mostafa Mokhtar, et. al.
 https://databricks.com/blog/2021/11/15/snowflake-claims-similar-price-performance-to-databricks-but-not-so-fast.html
 
 Databricks just set the world record for speed in a data warehouse
@@ -148,7 +148,7 @@ Meant to be easy to work with
 Native support for ML/data science/streaming
 External benchmarks are again the most representative of a product
 
-##State of MLOps by INNOQ
+## State of MLOps by INNOQ
 https://ml-ops.org/content/state-of-mlops
 
 MLOps Infrastructure Stack
