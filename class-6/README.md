@@ -15,3 +15,61 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
 2. Data and model profiling: Evidently also generates JSON `Profiles`, which can be used to integrate the data or model evaluation step into the ML pipeline.
 
 3. Real-time ML monitoring: Evidently also has `Monitors` that collect data and model metrics from a deployed ML service, which can be used to build live monitoring dashboards.
+
+
+
+
+
+## Lecture - Deployment and Monitoring
+
+### House Cleaning
+
+##### Application Structure
+
+###### Batch Prediction
+
+- Pre-process model interface and cache reults
+
+- Minimal performance impacts to user
+
+- Idea for a manageable set of predictions (recommender systems)
+
+- Is not dynamic
+
+###### Model as a Service (MaaS)
+
+- Model is packaged and deployed as an external service (API)
+
+- Easier to manage infrasture and scale (Docker)
+
+- Can add complexity to product archetecture (Scaling)
+
+- Many managed options available
+
+**Tech stack**: Flask, FaskAPI, Docker, Kubernetes
+
+**Example**: ONNX
+
+###### Deploying at the Edge
+
+- Model is on the device
+
+- Low latency and no connectivity required
+
+- Limited to hardware specs
+
+- Updating models can be challenging
+
+- Many services are optimized
+
+- Customeized edge models are available
+
+**Example**: Tensorflow light, core ML with Apple, Nvidia AI embedded systems
+
+
+
+### MLOps Stack Review
+
+### Model Deployment
+
+### Model Monitoring
