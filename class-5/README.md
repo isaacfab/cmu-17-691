@@ -62,12 +62,17 @@ Examples of good applications:
 Cases where there are a large amount of elements in the data.
 Multi-parameter problems.
 
+![img](./images/3.png)
+
 Deployment gap:
 Companies are able to make machine learning models, but it is difficult to apply to deploy to production.
 22 percent of companies that use ML have actually deployed anything successfully.
 Issues with: scale, version control, model reproducibility, and aligning with stakeholders.
 Deployment affects the data, ML model, and the code, i.e. changing anything, changes the whole deployment.
 There are issues with data quality, decay of the model over time, and locality.
+
+![img](./images/4.png)
+
 MLOps definition: the extension of the DevOps methodology to include Machine Learning and Data Science assets as first-class citizens within the DevOps ecology. Covers all aspects of machine learning deployment, and has evolved significantly over time as these issues have been realized.
 
 
@@ -80,6 +85,8 @@ While there are large cost benefits of updating older cloud systems, it is a mas
 Potential for total savings of over $500B from optimization.
 Estimates show that the cost of updating is less than half of current maintenance for these systems.
 Rough estimates of cloud spending:
+
+![img](./images/5.png)
 
 Immense possible savings and market capitalization from these savings.
 Consistent updates prevent companies eventually getting locked into these systems
@@ -96,9 +103,11 @@ https://future.a16z.com/emerging-architectures-modern-data-infrastructure/
 
 Updated diagram of data infrastructure.
 
+![img](./images/6.png)
 
 Machine learning infrastructure.
 
+![img](./images/7.png)
 
 Stability is still the most important factor for data infrastructure.
 Two main classes:
@@ -166,8 +175,9 @@ Currently there is a lot of change in MLOps technologies
 Models/applications can vary significantly with regulation, difficulty, and application case
 Template for MLOps stack:
 
+![img](./images/8.png)
 
 Systems can be customized by implementing their own systems or combinations of open source
 Constantly changing landscape of available technologies
 List of the production machine learning tools:
-![img](./images/8.png)
+![img](./images/9.png)
