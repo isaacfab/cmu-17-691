@@ -17,10 +17,12 @@ Data Steward / Custodian: Data Engineer, Data Analyst, Data Scientist, Software 
 
 Collaboration
 Nbdev - https://nbdev.fast.ai
+
 DVC - https://dvc.org
+
 DagsHub - https://dagshub.com
 
-
+![img](./2.png)
 
 
 
