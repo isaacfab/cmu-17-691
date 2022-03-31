@@ -1,17 +1,16 @@
 # Class notes
-Update this file with notes for the class. Include summay of readings, in-class activities, and the lecture.
 
-Lecture 5: Tools and Infrastructure
+#Lecture 5: Tools and Infrastructure
 
 MLOps
 “The extension of the DevOps methodology to include Machine Learning and Data Science assets at first-class citizens within the DevOps ecology”.
 
 Component
 
+Roles:
 
-
-Roles
 Data Owners: Chief Information Officer, Chief Data Officer, IT System Owner, Product Manager.
+
 Data Steward / Custodian: Data Engineer, Data Analyst, Data Scientist, Software Developer.
 
 
@@ -32,7 +31,9 @@ DagsHub - https://dagshub.com
 
 Other Solutions:
 StreamLit: https://streamlit.io  (Frontend)
+
 Gradio: https://gradio.app (Frontend)
+
 Domino Data Lab: https://www.dominodatalab.com (ML Ops)
 
 
@@ -167,4 +168,4 @@ Template for MLOps stack:
 Systems can be customized by implementing their own systems or combinations of open source
 Constantly changing landscape of available technologies
 List of the production machine learning tools:
-
+![img](./images/8.png)
