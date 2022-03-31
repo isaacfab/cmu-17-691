@@ -7,14 +7,16 @@ MLOps
 
 Component
 ![img](./images/1.png)
-Roles:
+
+### Roles:
 
 Data Owners: Chief Information Officer, Chief Data Officer, IT System Owner, Product Manager.
 
 Data Steward / Custodian: Data Engineer, Data Analyst, Data Scientist, Software Developer.
 
 
-Collaboration
+### Collaboration
+
 Nbdev - https://nbdev.fast.ai
 
 DVC - https://dvc.org
