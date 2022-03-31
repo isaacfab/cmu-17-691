@@ -6,7 +6,7 @@ MLOps
 “The extension of the DevOps methodology to include Machine Learning and Data Science assets at first-class citizens within the DevOps ecology”.
 
 Component
-
+![img](./images/1.png)
 Roles:
 
 Data Owners: Chief Information Officer, Chief Data Officer, IT System Owner, Product Manager.
