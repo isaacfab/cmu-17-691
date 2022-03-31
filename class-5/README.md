@@ -31,7 +31,8 @@ DagsHub - https://dagshub.com
 
 
 
-Other Solutions:
+### Other Solutions:
+
 StreamLit: https://streamlit.io  (Frontend)
 
 Gradio: https://gradio.app (Frontend)
