@@ -22,7 +22,7 @@ DVC - https://dvc.org
 
 DagsHub - https://dagshub.com
 
-![img](./2.png)
+![img](./images/2.png)
 
 
 
