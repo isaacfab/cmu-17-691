@@ -16,17 +16,15 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
 
 3. Real-time ML monitoring: Evidently also has `Monitors` that collect data and model metrics from a deployed ML service, which can be used to build live monitoring dashboards.
 
-
-
-
-
 ## Lecture - Deployment and Monitoring
 
-### House Cleaning
+
+
+### Model Deployment
 
 ##### Application Structure
 
-###### Batch Prediction
+###### 1. Batch Prediction
 
 - Pre-process model interface and cache reults
 
@@ -36,7 +34,7 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
 
 - Is not dynamic
 
-###### Model as a Service (MaaS)
+###### 2. Model as a Service (MaaS)
 
 - Model is packaged and deployed as an external service (API)
 
@@ -50,7 +48,7 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
 
 **Example**: ONNX
 
-###### Deploying at the Edge
+###### 3. Deploying at the Edge
 
 - Model is on the device
 
@@ -66,10 +64,48 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
 
 **Example**: Tensorflow light, core ML with Apple, Nvidia AI embedded systems
 
-
-
-### MLOps Stack Review
-
-### Model Deployment
-
 ### Model Monitoring
+
+###### Importance
+
+- Primary issue is that model performance after deployment does not meet expetations
+
+- Dirft is the common term for this phenomenon is 
+  
+  - Data Drift - Issue in production data pipeleine
+  
+  - Model/Concept Drivt - Fundamental change in system the model was trained in
+  
+  - Domanin Shift - Misalignemnt from training and production
+
+###### Drift types
+
+- Instantaneous
+
+- Gradual
+
+- Periodic
+
+- Temporary
+
+###### What to Monitor
+
+The harder to measure, more information will get.
+
+- Model metrics - accuracy, percision, recall
+
+- Business metrics - customer churn, ROI, etc.
+
+- Distributions of Model inputs and inference
+
+- System Performance
+
+###### Looking for Feature Distribution Shifts
+
+- Classical statistical hypothesis test
+
+- Collect 2 samples and compare then (reference / traning data)
+
+###### Tools
+
+- Evidently.ai / Neptune.ai
