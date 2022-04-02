@@ -131,13 +131,21 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
 
 3. Real-time ML monitoring: Evidently also has `Monitors` that collect data and model metrics from a deployed ML service, which can be used to build live monitoring dashboards.
 
+
+
 ## Lecture Notes - Deployment and Monitoring
 
 ### Model Deployment
 
-##### Application Structure
+#### 1. Database
 
-###### 1. Batch Prediction
+- Running ahead of time
+
+- Preprocessing, user don’t even know
+
+e.g. search engine use caches, recommendation system use look up table. drawback: not real time, needed to be updated in batches
+
+#### 2. Server (server side mode linferrencing)
 
 - Pre-process model interface and cache reults
 
@@ -147,7 +155,11 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
 
 - Is not dynamic
 
-###### 2. Model as a Service (MaaS)
+- Easy to be integrated, but could impact performance if model inference use too much resource. 
+  
+  Alternative: package model as external service API, it can self update without need of knowing the software.
+
+#### 3. Model as a Service (MaaS)
 
 - Model is packaged and deployed as an external service (API)
 
@@ -159,9 +171,9 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
 
 **Tech stack**: Flask, FaskAPI, Docker, Kubernetes
 
-**Example**: ONNX
+**Example**: Take advantage of standardization components: Open Neural network Exchange (ONNX), easy to deploy
 
-###### 3. Deploying at the Edge
+#### 4. Deploying at the Edge
 
 - Model is on the device
 
@@ -175,11 +187,69 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
 
 - Customeized edge models are available
 
-**Example**: Tensorflow light, core ML with Apple, Nvidia AI embedded systems
+**Example**: Tensorflow light, core ML with Apple, Nvidia AI embedded systems, Jetson Nano Developer Kit for Live Object Detection. Trade off between efficiency and accuracy. When model is smaller, some fidelity is lost.
+
+### Class Discussions
+
+#### Stack
+
+- Track model, performance need to be monitored, insuring integrity of product, work as the way intended to
+
+- Strategy for product
+
+- Consider trade offs
+
+- Impact of development on system 
+
+- Model versioning with quality check 
+
+- What metrics to use
+
+- Format matters
+
+- Continuous training
+
+- Model decay
+
+#### Online
+
+- Immediate result
+
+- Online can be slower
+
+- Guarantee privacy, more data control
+
+- Can handle more diverse input
+
+#### Batch
+
+- More efficient, reduce latency by retrieve cached result
+
+- Batch Optimized for Through put
+
+- Optimized batch size
+
+- Trade off between low latency and cache
+
+- Need to understand inputs
+
+#### Evidently.ai
+
+- Monitoring Data Drift - keep track of it
+
+- Dashboard visualization
+
+- Quality of data
+
+- Model inference time
+
+- Model performance comparison
 
 ### Model Monitoring
 
-###### Importance
+#### **Why monitor after deployment?**
+
+- Always monitor, otherwise model quality will decay.
 
 - Primary issue is that model performance after deployment does not meet expetations
 
@@ -191,17 +261,29 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
   
   - Domanin Shift - Misalignemnt from training and production
 
-###### Drift types
+#### Drift types
 
-- Instantaneous
+Typically refers to the features, input to the models (what actually goes in your model)
 
-- Gradual
+###### By Types
+
+- Data Drift: issue in data pipeline
+
+- Model/Concept drift, fundamental change in system of the model 
+
+- Domain Shift, MOST COMMON in real life. Very hard to collect data that are unbiased.
+
+###### By Time:
+
+- Instantaneous:  Instant difference between training and deployment
+
+- Gradual: Gradually change over time and gap between training and deployment increases
+
+- Temporary: Sudden change caused inaccuracy but go back online later, e.g. COVID-19.
 
 - Periodic
 
-- Temporary
-
-###### What to Monitor
+#### What to Monitor
 
 The harder to measure, more information will get.
 
@@ -209,7 +291,13 @@ The harder to measure, more information will get.
 
 - Business metrics - customer churn, ROI, etc.
 
-- Distributions of Model inputs and inference
+- Distributions of Model inputs and inference: 
+  
+  - A/B Tests
+  
+  - Visual inspection
+  
+  - K-S test, difference between model and empirical CDF
 
 - System Performance
 
@@ -221,4 +309,16 @@ The harder to measure, more information will get.
 
 ###### Tools
 
-- Evidently.ai / Neptune.ai
+- Model should be logging metrics
+
+- Part of the app should be dedicated to collection and analytics
+
+- Store metrics in a database table : e.g. Evident AI, Neptune AI
+
+### Summary
+
+- Many Options for Deployment 
+
+- Choose one best for your product.
+
+- Keep track of it
