@@ -131,9 +131,7 @@ Evidently has a modular approach with 3 interfaces on top of the shared `Analyze
 
 3. Real-time ML monitoring: Evidently also has `Monitors` that collect data and model metrics from a deployed ML service, which can be used to build live monitoring dashboards.
 
-
-
-## Lecture Notes - Deployment and Monitoring
+## Lecture Notes
 
 ### Model Deployment
 
