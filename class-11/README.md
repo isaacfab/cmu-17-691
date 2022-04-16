@@ -51,6 +51,7 @@ NOTE: NS/S - actual/observed; DNS/DS - predicted by detector
 <img src='https://user-images.githubusercontent.com/14092419/163653856-86875751-b0f5-4fc7-8291-aeadef74b3bb.png' width='400'>
 
 Value of Detector = $1024 - $1000 = $24
+
 If the baseline value provides some value or no value (i.e its certain equivvalent is less than default and there is no way to get to an accuracy that will increase the model's certain equivalent, there is no need to build that model.
 
 ## In-class exercise
