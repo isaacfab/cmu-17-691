@@ -2,8 +2,9 @@
 
 
 <p align="center">
-        <img src="2022-spring/class-5/images/1.png" height="300"/>
+        <img src="img/1.png" height="300"/>
 </p>
+
 Each folder represents resources and notes for each lecture. Students should submit notes to the appropriate folder via a PR (currently `2023-spring` ). Historical class notes and group product presentations are available in the other folders for reference.
 
 ## Description
