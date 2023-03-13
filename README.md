@@ -1,6 +1,6 @@
-![](2022-spring/class-5/images/1.png){height=150px}
-
 # ML in Practice (CMU 17691) Spring 2023
+
+![](2022-spring/class-5/images/1.png =x150)
 
 Repo for the CMU course - Machine Learning in Practice
 
