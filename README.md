@@ -20,6 +20,12 @@ After completing this course, students will:
 
 **Course Textbook:** [Designing Machine Learning Systems](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969)
 
+<p align="center">
+  <a href = "https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969">
+        <img src="dmls/1.png" height="100"/>
+  </a>
+</p>
+
 **Prerequisites:** Introductory course in Machine Learning. Understanding of basic machine learning concepts (i.e., supervised/unsupervised learning, cost functions, confusion matrix, regression vs. classification). Working knowledge of Python 3.x, familiarity with Docker (not required but will be useful). This is a graduate level course.
 
 **Assessments:** Evaluation will be based on the following distribution: 
