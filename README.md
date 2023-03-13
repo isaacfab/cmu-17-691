@@ -1,50 +1,22 @@
-# ML in Practice (CMU 17691) Spring 2022
+![](2022-spring/class-5/1.png){height=150px}
 
-Repo for CMU course - Machine Learning in Practice
+# ML in Practice (CMU 17691) Spring 2023
 
-Each folder represents resources and notes for each lecture. Students should submit notes to the appropriate folder via a PR.
+Repo for the CMU course - Machine Learning in Practice
+
+Each folder represents resources and notes for each lecture. Students should submit notes to the appropriate folder via a PR (currently `2023-spring`). Historical class notes and group product presentations are available in the other folders for reference.
 
 ## Description
 
-As Machine Learning and Artificial Intelligence methods have become common place in both academic and industry environments the majority of resources have focused on methods and techniques for applications. However, there are many considerations that must be addressed when deploying such techniques into practice (or production). The purpose of this course is to cover topics relevant to building a machine learning systems deployed into operations. Such systems have technical requirements including data management, model development, and deployment. However, business/organizational impacts must also be considered. Machine learning systems can be expensive to produce and operate. Students will learn about trade-offs in design, implementation, and expected value. After completing this course, students will: 
+As Machine Learning and Artificial Intelligence methods have become common place in both academic and industry environments many resources have focused on methods and techniques for applications. However, there are other considerations that must be addressed when deploying such techniques into practice (or production). The purpose of this course is to cover topics relevant to building a machine learning system deployed into operations. Such systems have technical requirements including data management, model development, and deployment. However, business/organizational impacts must also be considered. Machine learning systems can be expensive to produce and operate. Students will learn about trade-offs in design, implementation, and expected value. 
+
+After completing this course, students will: 
 
 1. Have the ability to deploy products with machine learning and AI components
 2. Understand how to implement data pipelines and data engineering systems
 3. Calculate the approximate value provided by a machine learning system to an organization
 4. Understand how to continually assess the value and quality of a deployed machine learning system
 
-Prerequisites: understanding of basic machine learning concepts (i.e. supervised/unsupervised learning).
+**Prerequisites:** Introductory course in Machine Learning. Understanding of basic machine learning concepts (i.e., supervised/unsupervised learning, cost functions, confusion matrix, regression vs. classification). Working knowledge of Python 3.x, familiarity with Docker (not required but will be useful). This is a graduate level course.
 
-## Groups
 
-- **Group 1 (March 15th | [Lecture 1](class-1))**
-  
-  - Steve Choi
-  - David Good
-
-- **Group 2 (March 17th | [Lecture 2](class-2))**
-  
-  - Kedar Deshpande
-  - Wei Ziyuan
-
-- **Group 3 (March 22nd | [Lecture 3](class-3))**
-  
-  - Connie He
-  - Huilin Xiong
-  - Phoebe Li
-
-- **Group 4 (March 24th | [Lecture 4](class-4))**
-  
-  - Aditya Bindra
-  - Akshay Bahadur
-  - Naman Arora
-
-- **Group 6 (March 31rd | [Lecture 6](class-6))**
-  
-  - Jiayi Huang
-  
-  - Xiaoting Wang
-  
-  - Chunying Li
-
-#### Made with ❤️ and 🦙 by Team MLP
