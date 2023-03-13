@@ -17,6 +17,8 @@ After completing this course, students will:
 3. Calculate the approximate value provided by a machine learning system to an organization
 4. Understand how to continually assess the value and quality of a deployed machine learning system
 
+**Course Textbook:** [Designing Machine Learning Systems](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969)
+
 **Prerequisites:** Introductory course in Machine Learning. Understanding of basic machine learning concepts (i.e., supervised/unsupervised learning, cost functions, confusion matrix, regression vs. classification). Working knowledge of Python 3.x, familiarity with Docker (not required but will be useful). This is a graduate level course.
 
 **Assessments:** Evaluation will be based on the following distribution: 
