@@ -18,6 +18,8 @@ After completing this course, students will:
 3. Calculate the approximate value provided by a machine learning system to an organization
 4. Understand how to continually assess the value and quality of a deployed machine learning system
 
+**Course Textbook:** [Designing Machine Learning Systems](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969)
+
 **Prerequisites:** Introductory course in Machine Learning. Understanding of basic machine learning concepts (i.e., supervised/unsupervised learning, cost functions, confusion matrix, regression vs. classification). Working knowledge of Python 3.x, familiarity with Docker (not required but will be useful). This is a graduate level course.
 
 **Assessments:** Evaluation will be based on the following distribution: 
@@ -83,5 +85,5 @@ Note that the instructors respect honesty in these (and indeed most!) situations
 
 Accommodations: If you wish to request an accommodation due to a documented disability, please inform the instructor as soon as possible and contact Disability Resources at 412.268.2013 or access@andrew.cmu.edu.
 
-A note on self-care: A note on self-care. Please take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep, and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
+A note on self-care: Please take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep, and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
 If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at http://www.cmu.edu/counseling/. Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help.
