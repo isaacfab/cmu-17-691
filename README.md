@@ -22,7 +22,7 @@ After completing this course, students will:
 
 <p align="center">
   <a href = "https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969">
-        <img src="dmls/1.png" height="100"/>
+        <img src="img/dmls.jpg" height="100"/>
   </a>
 </p>
 
