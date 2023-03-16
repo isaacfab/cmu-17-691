@@ -24,6 +24,6 @@ Containers are great tools for packaing up applications that have Machine Learni
 		2. this example extends a python docker image called python:3.8-slim that has python 3.8 installed
 		3. we just install the packages we need at runtime using requirements.txt 
 		4. then run the command that starts the flask app when the container is started
-		5. the actual build is done with the command `docker build . -t api` the -t flag tags or names the image
+		5. the actual build is done with the command `docker build -t api .` the -t flag tags or names the image the '.' is the current directory where the command is run
 	4. run the newly built containter with `docker run -p 8080:8080 api`
 	5. test the api with a POST request: `curl -X POST 127.0.0.1:8080/predict -H 'Content-Type: application/json' -d '[{\"f1\":0.80576177,\"f2\":1.37593746,\"f3\":-0.09609774,\"f4\":-0.46983664,\"f5\":-0.46399264,\"f6\":-0.41596074}]'`
