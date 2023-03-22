@@ -18,7 +18,7 @@ dag = DAG(dag_id = 'my_sample_dag',
 def run_this_func():
     print('I am coming first')    
     #print(requests.get("https://catfact.ninja/fact").json())
-    #print(_internal.main(['list']))
+    print(_internal.main(['list']))
  
 def run_also_this_func():
     print('I am coming last')

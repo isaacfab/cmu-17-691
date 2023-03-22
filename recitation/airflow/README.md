@@ -31,6 +31,9 @@ Build and run the application
 docker compose up
 ```
 
+now the airflow UI can be accessed at `http://localhost:8080` with both username and password `airflow.` Also you can open the jupyter lab instance at `http://localhost:8888` you can get the token from the console startup logs.
+
+
 When you are done with the Airflow experiment you can clean everything up with
 
 ```
