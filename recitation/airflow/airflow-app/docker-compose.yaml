@@ -99,6 +99,14 @@ services:
       retries: 50
     restart: always
 
+  jlab:
+    image: jupyter/datascience-notebook:2023-02-28
+    ports:
+      - 8888:8888
+    volumes:
+      - ${AIRFLOW_PROJ_DIR:-.}:/home/jovyan/work
+    restart: always  
+
   airflow-webserver:
     <<: *airflow-common
     command: webserver
