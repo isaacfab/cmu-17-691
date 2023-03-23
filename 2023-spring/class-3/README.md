@@ -1,14 +1,26 @@
 # Class Notes
 #### Previous Class Review: 
-- Data Projects ~ primary focus is data 
+- Data Projects 
+    - primary focus is data
+    - broad range of complexity
+- Data Project Types 
+    - Low level -> Descriptive, Diagnostic
+    - Top level -> Aritificial intelligence (it is a product that makes a decision)
 - ML Products vs. Research 
     - 3/4 focus on data in ML Products to 1/4 models/algorithms 
     - Research heavily focused on models/algorithms
 
+### What's happening in the Real World
+- Focus is on reducing costs, increasing the revenue
+- Collect data relevant to the topics
+
 ### Data Strategy
+- Required before a Machine Learning strategy
 - guiding document drafted by leaders
 - outlines vision and goal
-- selection of data projects should be inline with the overarching data strrategy  
+- selection of data projects should be inline with the overarching data strategy 
+- Data is collected in specific areas after user cases are defined
+<br/>Example: Army invested in millions of $ in Hadoop and sensor related data which was mainly for DNS data on army's network.
 
 >collect data a priori -> unique and relevent data will make products more beneficial
 
@@ -16,9 +28,13 @@
 ![image](https://user-images.githubusercontent.com/93678940/227079781-45f95df4-3338-457d-afc6-66b1f8eea565.png)  
 [picture reference](https://www.datascience-pm.com/crisp-dm-2/)
 
+### Data Science Process - Simplified
+- Business Question -> Data Munging, Data Modelling, Data Visalization -> Solution
+
 ### Problem Definition (Business Question, Business Understanding, etc.)
 - goal of data project is to reduce the uncertainty of decisions
 - important to understand the value provided by reduced uncertainty
+<br/>Example: Fog of a war, where there is a fog associated with decisions which makes decision making harder. But the end goal is to lift the fog and analyse the available data to come up with a decisison.
 
 #### User Discovery:
 *primary goal should be to find out if people will actually use the product*   
@@ -33,15 +49,24 @@ Workflow:
 [picture reference](https://ml-ops.org/content/end-to-end-ml-workflow)  
 > Does the project address a real user problem?
 
-#### Data Flywheel - Data Network Effects  
+### Basic ML Project Workflow
+- Problem Definition: Does the project address a real user problem?
+- Data Curation and Labelling: How much data needs to be collected to realize value?
+- Model Deployment: How complex of a model will be required to realize value? (Model Complexity)
+- Model Deployment & Momitoring: Does your model scale with the use case? (Model Scalability)
+
+#### Data Flywheel - Data Network Effects
+More users -> More data -> Smarter Algorithms -> Better product
 ![image](https://user-images.githubusercontent.com/93678940/227079494-0b192775-00ae-4993-9fc2-25f63fb4793a.png)  
 [picture reference](https://dataloop.ai/book/the-data-flywheel-effect/)  
-> Build in the capability to trigger the data flywheel upfront  
+> Build in the capability to trigger the data flywheel upfront
 
 #### The AI Canvas  
 ![image](https://user-images.githubusercontent.com/93678940/227079155-cda95c4f-4822-473f-a7f6-4fcdd3b24471.png)   
 [picture reference](https://medium.com/the-business-of-ai/the-ai-canvas-7a8717cddbe9)  
-Helps organize thoughts and ensure the project makes sense 
+Helps organize thoughts and ensure the project makes sense
+<br/>
+Prediction, Judgement, Action, Outcome, Input, Training, Feedback
 
 ### Challenges with ML Projects  
 <table>
@@ -60,7 +85,7 @@ Helps organize thoughts and ensure the project makes sense
 #### In Jeremy Howards article: Data Project Checklist pick two questions (from two different sections) that your team believes are important and explain why.   
 - Historical Info  
 - ROI of Project  
-- Model En 
+- Model Effectivess
 - Retraining frequency *  
 - Focus on Data Collection **  
 - Strategic Priority *  
@@ -75,18 +100,18 @@ Helps organize thoughts and ensure the project makes sense
 [End-to-End machine Learning Workflow](https://ml-ops.org/content/end-to-end-ml-workflow)  
 #### Notes:  
 Outlines the workflow for Machine Learning projects to include the individual aspects of each major step (Data Engineering, Model Engineering, Model Deployment).  
-##### Data Engineering  
+##### Data Engineering: Acquiring and preparing the data to be analyzed   
 1. Data Ingestion  
 2. Exploration and Validation  
 3. Data Wrangling (Cleaning)  
 4. Data Labeling  
 5. Data Splitting  
-##### Model Engineering  
+##### Model Engineering: Writing and executing machine learning algorithms to obtain an ML model 
 1. Model Training  
 2. Model Evaluation  
 3. Model Testing  
 4. Model Packaging   
-##### Model Deployment  
+##### Model Deployment: Deploying as a part of business application and integration into existing software   
 1. Model Serving  
 2. Model Performance Monitoring  
 3. Model Performance Logging  
@@ -94,7 +119,7 @@ Outlines the workflow for Machine Learning projects to include the individual as
 ## 
 [Data Project Checklist](https://www.fast.ai/posts/2020-01-07-data-questionnaire.html)  
 #### Notes:  
-Outlines various questions that should be asked prior to starting a data project. These questions cover various aspects of data, metrics, capabilities, etc. that will be vital it clearing up any questions/doubts on what needs to be done, what can be done, and how it can be done. The questions are broken into into different sections that focus on different key aspects of the problem formulation. The breakdown can be seen below:  
+Outlines various questions that should be asked prior to starting a data project. Seeking to understand the organization's context for developing a data project based on strategy, data, analytics, implementation, maintenance and constraints. These questions cover various aspects of data, metrics, capabilities, etc. that will be vital it clearing up any questions/doubts on what needs to be done, what can be done, and how it can be done. The questions are broken into into different sections that focus on different key aspects of the problem formulation. The breakdown can be seen below:  
 ![image](https://user-images.githubusercontent.com/93678940/227247466-e498eebc-95b8-4061-8607-f73894127d50.png)  
 
 ## 
