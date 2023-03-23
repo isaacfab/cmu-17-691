@@ -13,10 +13,8 @@
 >collect data a priori -> unique and relevent data will make products more beneficial
 
 ### Data Project Workflow - CRISP-DM 
-*insert the image here* 
-
-### Data Science Process
-*insert the image here* 
+![image](https://user-images.githubusercontent.com/93678940/227079781-45f95df4-3338-457d-afc6-66b1f8eea565.png)  
+[picture reference](https://www.datascience-pm.com/crisp-dm-2/)
 
 ### Problem Definition (Business Question, Business Understanding, etc.)
 - goal of data project is to reduce the uncertainty of decisions
@@ -30,16 +28,19 @@ methods:
 
 ### Machine Learning Projects  
 Basic Components: Data Engineering, Data Science, Software Engineering   
-Basic Workflow:  
-*insert the circular picture*  
+Workflow:  
+![image](https://user-images.githubusercontent.com/93678940/227079686-27ba23fc-7b19-4c9d-a038-400f74f94f9b.png)  
+[picture reference](https://ml-ops.org/content/end-to-end-ml-workflow)  
 > Does the project address a real user problem?
 
 #### Data Flywheel - Data Network Effects  
-*insert image*  
+![image](https://user-images.githubusercontent.com/93678940/227079494-0b192775-00ae-4993-9fc2-25f63fb4793a.png)  
+[picture reference](https://dataloop.ai/book/the-data-flywheel-effect/)  
 > Build in the capability to trigger the data flywheel upfront  
 
 #### The AI Canvas  
-*insert image*  
+![image](https://user-images.githubusercontent.com/93678940/227079155-cda95c4f-4822-473f-a7f6-4fcdd3b24471.png)   
+[picture reference](https://medium.com/the-business-of-ai/the-ai-canvas-7a8717cddbe9)  
 Helps organize thoughts and ensure the project makes sense 
 
 ### Challenges with ML Projects  
