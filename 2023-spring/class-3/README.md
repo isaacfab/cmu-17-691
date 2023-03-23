@@ -55,6 +55,20 @@ Helps organize thoughts and ensure the project makes sense
     <tr>
 </table>
 
+## In Class Exercise  
+
+#### In Jeremy Howards article: Data Project Checklist pick two questions (from two different sections) that your team believes are important and explain why.   
+- Historical Info  
+- ROI of Project  
+- Model En 
+- Retraining frequency *  
+- Focus on Data Collection **  
+- Strategic Priority *  
+- Valid Analytical Models  
+- Anayltical Tools  
+- Metrics  
+- Data Availablility  
+
 ## Reading Notes:   
 
 ## 
