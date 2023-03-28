@@ -28,6 +28,7 @@
 
 <img width="464" alt="image-20230327233557779" src="https://user-images.githubusercontent.com/100179117/228269315-2bb6e35b-eb5f-426d-9555-f6a1802c32e3.png">
 
+
 #### Basic ML project workflow:
 
 1. Start with the problem: root in user-defined consideration
@@ -35,7 +36,7 @@
 3. Model development
 4. Deploy and monitor
 
-<img width="384" alt="image-20230327234033980" src="https://user-images.githubusercontent.com/100179117/228269389-4761bfb2-50df-4367-b5ad-e494c85fa316.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/100179117/228271193-faf30a00-1cc6-409f-9c30-28f05a0cbd99.png">
 
 The virtual cycle only works when we evaluate the quality of the value we are producing. Thus, we need metrics that are directly tied to the value we are producing for expected outcomes.
 
@@ -73,7 +74,7 @@ Metrics for Large Language Model:
 
 ##### Right cost function:
 
-<img width="268" alt="image-20230328000340320" src="https://user-images.githubusercontent.com/100179117/228269438-ad77930c-15ea-42a4-ab7c-bd5b3464a0de.png">
+<img width="500" alt="image-20230328000340320" src="https://user-images.githubusercontent.com/100179117/228269438-ad77930c-15ea-42a4-ab7c-bd5b3464a0de.png">
 
 Need to consider:
 
