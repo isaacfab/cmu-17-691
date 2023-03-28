@@ -18,7 +18,7 @@
 - Data Science
 - Software Engineering
 
-<img width="754" alt="image-20230327233156999" src="https://user-images.githubusercontent.com/100179117/228269122-f32a3ce4-bf09-45b7-9478-d21f7631bcbd.png">
+<img width="800" alt="image-20230327233156999" src="https://user-images.githubusercontent.com/100179117/228269122-f32a3ce4-bf09-45b7-9478-d21f7631bcbd.png">
 
 #### Expanding into ML project workflow:
 
@@ -26,8 +26,8 @@
 - Machine learning pipeline
 - Software code pipeline
 
-<img width="464" alt="image-20230327233557779" src="https://user-images.githubusercontent.com/100179117/228269315-2bb6e35b-eb5f-426d-9555-f6a1802c32e3.png">
-
+<img width="600" alt="image-20230327233557779" src="https://user-images.githubusercontent.com/100179117/228269315-2bb6e35b-eb5f-426d-9555-f6a1802c32e3.png">
+Reference: https://ml-ops.org/content/end-to-end-ml-workflow
 
 #### Basic ML project workflow:
 
@@ -36,7 +36,7 @@
 3. Model development
 4. Deploy and monitor
 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/100179117/228271193-faf30a00-1cc6-409f-9c30-28f05a0cbd99.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/100179117/228271193-faf30a00-1cc6-409f-9c30-28f05a0cbd99.png">
 
 The virtual cycle only works when we evaluate the quality of the value we are producing. Thus, we need metrics that are directly tied to the value we are producing for expected outcomes.
 
@@ -86,6 +86,7 @@ Need to consider:
 Indication about the cost of things being wrong
 
 <img width="626" alt="image-20230328001030069" src="https://user-images.githubusercontent.com/100179117/228269485-9f7eb7e4-9063-44b5-a64b-eb1a26f8a1f2.png">
+Reference: https://fullstackdeeplearning.com/spring2021/lecture-5/
 
 Medical industry:
 
@@ -94,8 +95,9 @@ Medical industry:
 
 ##### Combine Metrics
 
-- Simple Average
-- Weighed Average
+- Average: Less common but easy and intuitive  
+  - Simple Average
+  - Weighed Average
 - Thresholds
   - Base industry requirements
   - How important are the metrics to create value?
@@ -105,6 +107,7 @@ Medical industry:
 ### Baseline Model
 
  ~~Define problem -> Collect small datasets -> .~~ Build your first model
+ Baseline Models help us set expectations for how well our model will perform.
 
 #### Baseline Idea: How complicated?
 
@@ -142,6 +145,7 @@ Medical industry:
 #### AutoML Components:
 
 <img width="583" alt="image-20230328003904930" src="https://user-images.githubusercontent.com/100179117/228269530-45ef6f69-ab18-40a5-9bd4-9c1fe37e2af2.png">
+Reference: [AutoML: A survey of the state-of-the-art](https://www.sciencedirect.com/science/article/pii/S0950705120307516#b8)
 
 ### In-class exercise:
 
