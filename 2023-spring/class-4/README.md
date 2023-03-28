@@ -165,7 +165,7 @@ References: https://www.sciencedirect.com/science/article/pii/S0950705120307516
 * The paper also discusses the challenges and limitations of AutoML, such as the need for large amounts of data and computational resources, and the difficulty of interpreting and explaining the results of automated models.
 * The paper concludes by highlighting some of the current research directions and future challenges in the field of AutoML.
 
-### [GCP Vertex AI: AutomML](https://cloud.google.com/vertex-ai/docs/beginner/beginners-guide/)
+### [GCP Vertex AI: AutoML](https://cloud.google.com/vertex-ai/docs/beginner/beginners-guide/)
 * Google Cloud’s Vertex AI AutoML is a suite of automated machine learning tools that enable users to build and deploy custom machine learning models.
 * Vertex AI AutoML includes several products, such as AutoML Tables, AutoML Vision, and AutoML Natural Language, which are designed for specific use cases.
 * These tools use automated algorithms and techniques to optimize machine learning models, reducing the need for manual tuning and expertise.
