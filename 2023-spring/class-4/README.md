@@ -74,7 +74,7 @@ Metrics for Large Language Model:
 
 ##### Right cost function:
 
-<img width="500" alt="image-20230328000340320" src="https://user-images.githubusercontent.com/100179117/228269438-ad77930c-15ea-42a4-ab7c-bd5b3464a0de.png">
+<img width="400" alt="image-20230328000340320" src="https://user-images.githubusercontent.com/100179117/228269438-ad77930c-15ea-42a4-ab7c-bd5b3464a0de.png">
 
 Need to consider:
 
