@@ -147,7 +147,8 @@ Medical industry:
 #### AutoML Components:
 
 <img width="583" alt="image-20230328003904930" src="https://user-images.githubusercontent.com/100179117/228269530-45ef6f69-ab18-40a5-9bd4-9c1fe37e2af2.png">
-References: [AutoML: A survey of the stateo-of-the-art] (https://www.sciencedirect.com/science/article/pii/S0950705120307516#b8)
+References: [AutoML: A survey of the stateo-of-the-art](https://www.sciencedirect.com/science/article/pii/S0950705120307516#b8)
+[AutoML](https://www.sciencedirect.com/science/article/pii/S0950705120307516#b8)
 
 ### In-class exercise:
 
