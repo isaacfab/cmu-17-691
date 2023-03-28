@@ -88,6 +88,7 @@ Indication about the cost of things being wrong
 <img width="626" alt="image-20230328001030069" src="https://user-images.githubusercontent.com/100179117/228269485-9f7eb7e4-9063-44b5-a64b-eb1a26f8a1f2.png">
 Reference: https://fullstackdeeplearning.com/spring2021/lecture-5/
 
+
 Medical industry:
 
 - FDA guidelines for precision and recall low-line threshold around medical devices: 70% precision, 50% recall
@@ -107,6 +108,7 @@ Medical industry:
 ### Baseline Model
 
  ~~Define problem -> Collect small datasets -> .~~ Build your first model
+ 
  Baseline Models help us set expectations for how well our model will perform.
 
 #### Baseline Idea: How complicated?
