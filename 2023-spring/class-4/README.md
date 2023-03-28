@@ -18,7 +18,7 @@
 - Data Science
 - Software Engineering
 
-<img width="612" alt="image-20230327233156999" src="https://user-images.githubusercontent.com/100179117/228269122-f32a3ce4-bf09-45b7-9478-d21f7631bcbd.png">
+<img width="754" alt="image-20230327233156999" src="https://user-images.githubusercontent.com/100179117/228269122-f32a3ce4-bf09-45b7-9478-d21f7631bcbd.png">
 
 #### Expanding into ML project workflow:
 
