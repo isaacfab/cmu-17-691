@@ -155,3 +155,28 @@ References: https://www.sciencedirect.com/science/article/pii/S0950705120307516
 - Problem: What is the likelihood that you are going to survive the Titanic
 - Good heuristic: Female
 - Improved heuristic: Age smaller than 16 or Female
+
+## Readings:
+### [AutoML: A survey of the state-of-the-art](https://www.sciencedirect.com/science/article/pii/S0950705120307516#b8)
+* The paper surveys the state-of-the-art of automated machine learning (AutoML).
+* AutoML refers to the use of automated algorithms and techniques to automate the process of building and optimizing machine learning models.
+* AutoML can help to reduce the amount of time and expertise required to build and optimize machine learning models, making it accessible to a wider range of users.
+* The paper provides an overview of the different types of AutoML techniques, including model-based methods, optimization-based methods, and neural architecture search methods.
+* The paper also discusses the challenges and limitations of AutoML, such as the need for large amounts of data and computational resources, and the difficulty of interpreting and explaining the results of automated models.
+* The paper concludes by highlighting some of the current research directions and future challenges in the field of AutoML.
+
+### [GCP Vertex AI: AutomML](https://cloud.google.com/vertex-ai/docs/beginner/beginners-guide/)
+* Google Cloud’s Vertex AI AutoML is a suite of automated machine learning tools that enable users to build and deploy custom machine learning models.
+* Vertex AI AutoML includes several products, such as AutoML Tables, AutoML Vision, and AutoML Natural Language, which are designed for specific use cases.
+* These tools use automated algorithms and techniques to optimize machine learning models, reducing the need for manual tuning and expertise.
+* Vertex AI AutoML also includes features for data preparation and management, model training and evaluation, and model deployment and monitoring.
+* The service is designed to be user-friendly, with a web-based graphical user interface and integration with other Google Cloud services.
+
+### [AWS AutoML](https://aws.amazon.com/machine-learning/automl/)
+* Amazon Web Services (AWS) offers a suite of AutoML solutions, including Amazon SageMaker Autopilot, Amazon Personalize, and Amazon CodeGuru Reviewer.
+* Amazon SageMaker Autopilot is an automated machine learning service that uses machine learning to automatically build, train, and tune models for specific use cases.
+* Amazon Personalize is a machine learning service that enables users to create personalized recommendations for their customers based on their behavior and preferences.
+* Amazon CodeGuru Reviewer is an automated code review service that uses machine learning to identify and recommend improvements to code quality and security.
+* AWS AutoML solutions also include features for data preparation and management, model training and evaluation, and model deployment and monitoring.
+* These services are user-friendly, and they integrate well with other AWS services. They can be used for a variety of use cases, including image and video analysis, natural language processing, and predictive analytics.
+
