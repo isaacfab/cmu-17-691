@@ -22,11 +22,11 @@
 
 #### Expanding into ML project workflow:
 
-- Data pipeline
-- Machine learning pipeline
-- Software code pipeline
+- Data pipeline: data acquisition & data preparation
+- Machine learning pipeline: ML model training & serving
+- Software code pipeline: integrating ML model into our product
 
-<img width="600" alt="image-20230327233557779" src="https://user-images.githubusercontent.com/100179117/228269315-2bb6e35b-eb5f-426d-9555-f6a1802c32e3.png">
+![image](https://user-images.githubusercontent.com/100179117/228273924-cdca8b7a-2c07-4ac1-88d0-ca8b972ef4ef.png)
 Reference: https://ml-ops.org/content/end-to-end-ml-workflow
 
 #### Basic ML project workflow:
@@ -36,7 +36,7 @@ Reference: https://ml-ops.org/content/end-to-end-ml-workflow
 3. Model development
 4. Deploy and monitor
 
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/100179117/228271193-faf30a00-1cc6-409f-9c30-28f05a0cbd99.png">
+<img width="384" alt="image-20230327234033980" src="https://user-images.githubusercontent.com/100179117/228273845-86172217-bcf6-4b62-a6ba-fad78ccd1ff4.png">
 
 The virtual cycle only works when we evaluate the quality of the value we are producing. Thus, we need metrics that are directly tied to the value we are producing for expected outcomes.
 
