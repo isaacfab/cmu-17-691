@@ -18,7 +18,7 @@
 - Data Science
 - Software Engineering
 
-<img width="612" alt="image-20230327233156999" src="https://user-images.githubusercontent.com/100179117/228269122-f32a3ce4-bf09-45b7-9478-d21f7631bcbd.png" style="zoom:50%;">
+<img width="612" alt="image-20230327233156999" src="https://user-images.githubusercontent.com/100179117/228269122-f32a3ce4-bf09-45b7-9478-d21f7631bcbd.png">
 
 #### Expanding into ML project workflow:
 
@@ -26,7 +26,7 @@
 - Machine learning pipeline
 - Software code pipeline
 
-<img src="/Users/connie/Library/Application Support/typora-user-images/image-20230327233557779.png" alt="image-20230327233557779" style="zoom:50%;" />
+<img width="464" alt="image-20230327233557779" src="https://user-images.githubusercontent.com/100179117/228269315-2bb6e35b-eb5f-426d-9555-f6a1802c32e3.png">
 
 #### Basic ML project workflow:
 
@@ -35,9 +35,7 @@
 3. Model development
 4. Deploy and monitor
 
-
-
-<img src="/Users/connie/Library/Application Support/typora-user-images/image-20230327234033980.png" alt="image-20230327234033980" style="zoom:50%;" />
+<img width="384" alt="image-20230327234033980" src="https://user-images.githubusercontent.com/100179117/228269389-4761bfb2-50df-4367-b5ad-e494c85fa316.png">
 
 The virtual cycle only works when we evaluate the quality of the value we are producing. Thus, we need metrics that are directly tied to the value we are producing for expected outcomes.
 
@@ -75,9 +73,7 @@ Metrics for Large Language Model:
 
 ##### Right cost function:
 
-<img src="/Users/connie/Library/Application Support/typora-user-images/image-20230328000340320.png" alt="image-20230328000340320" style="zoom:50%;" />
-
-
+<img width="268" alt="image-20230328000340320" src="https://user-images.githubusercontent.com/100179117/228269438-ad77930c-15ea-42a4-ab7c-bd5b3464a0de.png">
 
 Need to consider:
 
@@ -88,7 +84,7 @@ Need to consider:
 
 Indication about the cost of things being wrong
 
-<img src="/Users/connie/Library/Application Support/typora-user-images/image-20230328001030069.png" alt="image-20230328001030069" style="zoom:50%;" />
+<img width="626" alt="image-20230328001030069" src="https://user-images.githubusercontent.com/100179117/228269485-9f7eb7e4-9063-44b5-a64b-eb1a26f8a1f2.png">
 
 Medical industry:
 
@@ -144,9 +140,7 @@ Medical industry:
 
 #### AutoML Components:
 
-<img src="/Users/connie/Library/Application Support/typora-user-images/image-20230328003904930.png" alt="image-20230328003904930" style="zoom:50%;" />
-
-
+<img width="583" alt="image-20230328003904930" src="https://user-images.githubusercontent.com/100179117/228269530-45ef6f69-ab18-40a5-9bd4-9c1fe37e2af2.png">
 
 ### In-class exercise:
 
