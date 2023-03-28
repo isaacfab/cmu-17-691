@@ -24,7 +24,7 @@
 
 - Data pipeline: data acquisition & data preparation
 - Machine learning pipeline: ML model training & serving
-- Software code pipeline: integrating ML model into our product
+- Software code pipeline: integrating ML model into the product
 
 ![image](https://user-images.githubusercontent.com/100179117/228273924-cdca8b7a-2c07-4ac1-88d0-ca8b972ef4ef.png)
 Reference: https://ml-ops.org/content/end-to-end-ml-workflow
