@@ -152,7 +152,6 @@ Reference: [AutoML: A survey of the state-of-the-art](https://www.sciencedirect.
 ### In-class exercise:
 
 - [Required Tutorial](https://calmcode.io/human-learn/introduction.html)
-
 - Problem: What is the likelihood that you are going to survive the Titanic
 - Good heuristic: Female
 - Improved heuristic: Age smaller than 16 or Female
