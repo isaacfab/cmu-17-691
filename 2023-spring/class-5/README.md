@@ -17,6 +17,8 @@
 -	MLOps: DevOps x ML; Extension of DevOps methodology to include ML and data science assets as first-class citizens within the DevOps ecology
 -	DevOps: a set of practices that combines software development (Dev) and IT operations (Ops); aims to shorten the systems development life cycle and provide continuous delivery with high software quality; many features no automated/triggered
 ### Basic Components of an ML Product
+<img width="788" alt="Screen Shot 2023-03-30 at 12 30 30 AM" src="https://user-images.githubusercontent.com/62229741/228729995-4dd21337-fa12-43db-81a1-0caa6460b55b.png">
+<img width="744" alt="Screen Shot 2023-03-30 at 12 30 40 AM" src="https://user-images.githubusercontent.com/62229741/228730010-b672c224-dac0-42ff-be65-04ad35949183.png">
 
 Data flywheel: Ops integrates data flywheel principle, where additional data improves model
 ## Workforce Roles
@@ -211,6 +213,7 @@ Data flywheel: Ops integrates data flywheel principle, where additional data imp
 
 ## Example Sub-Components of an ML Product
 A reference to choose components for your own product!
+<img width="1026" alt="Screen Shot 2023-03-30 at 12 31 05 AM" src="https://user-images.githubusercontent.com/62229741/228730034-f72eb9a2-ddb1-4e96-ae30-412c9ae440ef.png">
 
 
 ## In Class Discussion
