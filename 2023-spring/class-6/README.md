@@ -56,8 +56,14 @@ The MLOps Stack Canvas is a visual representation of the key components and proc
 Evidently is an open-source Python library for data scientists and ML engineers.
 It helps evaluate, test, and monitor the performance of ML models from validation to production.
 Evidently helps evaluate and test data and ML model quality throughout the model lifecycle.
-Evidently has three components: Reports, Tests, and Monitors (in development).
-
+### Evidently has three components: *Reports*, *Tests*, and *Monitors* (in development).
+ - Test suites: Tests perform structured data and ML model quality checks. You typically compare two datasets: reference and current. You can set test parameters manually or let Evidently learn the expectations from the reference. Tests verify a condition and return an explicit pass or fail result.
+ - Reports: interactive dashboards. Reports calculate various metrics and provide rich interactive visualizations. You can create a custom Report from individual metrics or run one of the Presets that cover a specific aspect of the model or data performance. For example, Data Quality or Classification Performance. Reports are best for exploratory analysis, debugging, and documentation.
+ - Monitors: real-time ML monitoring. Evidently also has Monitors that collect data and model metrics from a deployed ML service. In this scenario, Evidently is deployed as a monitoring service. You can use configuration to define the monitoring logic. Evidently calculates the metrics over the streaming data and emits them in Prometheus format. There are pre-built Grafana dashboards to visualize them.
+### Core concepts in Evidently
+  - A *Metric* is a core component of Evidently. You can combine multiple Metrics in a Report. Reports are best for visual analysis and debugging of your models and data.
+  - A *Test* is a metric with a condition. Each test returns a pass or fail result. You can combine multiple Tests in a Test Suite. Test Suites are best for automated model checks as part of an ML pipeline.
+  - For both Tests and Metrics, Evidently has *Presets*. These are pre-built combinations of metrics or checks that fit a specific use case.
 # During class
 ## Application Structure
 - Data stored in a database
