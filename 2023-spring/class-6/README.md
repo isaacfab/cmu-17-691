@@ -64,6 +64,15 @@ Evidently helps evaluate and test data and ML model quality throughout the model
   - A *Metric* is a core component of Evidently. You can combine multiple Metrics in a Report. Reports are best for visual analysis and debugging of your models and data.
   - A *Test* is a metric with a condition. Each test returns a pass or fail result. You can combine multiple Tests in a Test Suite. Test Suites are best for automated model checks as part of an ML pipeline.
   - For both Tests and Metrics, Evidently has *Presets*. These are pre-built combinations of metrics or checks that fit a specific use case.
+  - A *Report* is a combination of different Metrics that evaluate data or ML model quality.
+  - A *Metric Preset* is a pre-built Report that combines Metrics for a particular use case. You can think of it as a template. For example, there is a Preset to check for Data Drift (DataDriftPreset), Data Quality (DataQualityPreset), or Regression Performance (RegressionPreset).
+  - You can list multiple Tests and execute them together in a *Test Suite*.
+  - A *Test Preset* is a pre-built Test Suite that combines checks for a particular use case. You can think of it as a template to start with. For example, there is a Preset to check for Data Quality (DataQualityTestPreset), Data Stability (DataStabilityTestPreset), or Regression model performance (RegressionTestPreset).
+### Test Suites or Reports?
+  - *Reports* are best for debugging, exploratory and ad hoc analytics. They focus on interactive visualizations and do not require setting any expectations upfront. You can use them, for example, when you just put a model in production and want to closely monitor the performance. It is best to use Reports on smaller datasets or sample your data first.
+  - *Test Suites* are best for automation. Use them when you can set up expectations upfront (or derive them from the reference dataset). Tests force you to think through what you expect from your data and models, and you can run them at scale, only reacting to the failure alerts. You can use Test Suites on larger datasets since they do not include heavy visuals.
+
+
 # During class
 ## Application Structure
 - Data stored in a database
