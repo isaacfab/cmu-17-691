@@ -2,6 +2,8 @@
 
 ![](https://ml-ops.org/img/ml-engineering.jpg)
 
+After deciding what is to be built and deploying it into production, there are external concerns. For these concerns, we pay special attention to testing, integration, and deployment. 
+
 ## Example Sub-Components of an ML Product for Governance
 - Data Versioning (i.e. DVC)
 - Data Labeling (i.e. Label Studio)
@@ -18,10 +20,16 @@
     - Alphabet Smart city Project shutdown
     - Apple Card alogirthm found showing gender bias
     - Amazon's AI recruiting tool showing bias against women
+- Training on biased data will result in a biased model
+- [List of failed ML projects](https://github.com/kennethleungty/Failed-ML)
+- We need to get in front of these issues and design around them as to not make the same mistakes as the above projects
+
 
 [Practical Guide to Building Ethical AI](https://hbr.org/2020/10/a-practical-guide-to-building-ethical-ai)
 
 ## AI Ethics Stack (By CMU)
+- Consider an ethical framework for your product
+- Ethical considerations needs to be made at the outset of any project
 ![](https://images.squarespace-cdn.com/content/v1/51d98be2e4b05a25fc200cbc/f66e9e6e-d741-4225-bbc5-fda9555fa23c/tay1.png)
 
 [See More](https://ai.cs.cmu.edu/about)
@@ -29,12 +37,17 @@
 ## Primary Sources of AI/ML Ethical Considerations
 
 1. Data Security and Privacy
+    - Does your system have the tendency to leak sensitive information?
+    - Are you abiding by regional compliance laws
     - [Amazon has the largest GDPR fines ~ $877 million](https://www.tessian.com/blog/biggest-gdpr-fines-2020/)
 2. Adverserial AI/Counter-AI
+    - Using AI to overtly conduct nefarious activity
     - [Unregulated Deepfakes](https://fortune.com/2021/03/05/tom-cruise-deepfake-creator-technology-should-be-regulated/)
 3. Unpredictable AI Behavior
+    - It does things you don't expect
     - [Microsoft's racist chatbot](https://www.bbc.com/news/technology-35902104)
 4. Harmful/Biased Autonomy
+    - Does the system have a direct impact on another person directly without human involvement?
     - [Facial recognition falls short in preventing crime](https://www.nytimes.com/2020/01/12/technology/facial-recognition-police.html)
 
 ## In Class Exercise
