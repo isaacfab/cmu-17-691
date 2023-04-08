@@ -2,4 +2,5 @@ dagshub
 dvc
 joblib
 pandas
+pandas-profiling
 scikit-learn
