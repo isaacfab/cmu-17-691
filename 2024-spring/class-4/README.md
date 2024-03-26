@@ -1,16 +1,17 @@
 ### ML Workflow
 There are three "categories" of work in creating an ML product.
+
 0. Problem definition
-  - what are you actually hoping to do with this ML product? You need to know what the desired outcome is in order to get there.
+   - what are you actually hoping to do with this ML product? You need to know what the desired outcome is in order to get there.
 1. Data engineering
-  - acquire raw data
-  - sanitize or process this data into some usable format
+   - acquire raw data
+   - sanitize or process this data into some usable format
 1. Data science
-  - building and tuning the ML model
-  - analytics
-  - evaluation
+   - building and tuning the ML model
+   - analytics
+   - evaluation
 1. Software engineering
-  - turning that model into something that the average user can extract value from
+   - turning that model into something that the average user can extract value from
 
 ### Metrics for ML
 - Is ML even the right solution?
@@ -29,6 +30,7 @@ There are three "categories" of work in creating an ML product.
   - How do you intend to monitor metrics vs thresholds?
 - Baselines
   - Compare model results to existing models or other solutions
+    - simple heuristics
     - industry standards
     - published results
     - human experts
