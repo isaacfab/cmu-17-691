@@ -36,7 +36,15 @@
 - Governance is critical to both ethcial and provenance concerns for prouct improvement
 
 ## Reading Summary
-(to-do)
+
+### Ethics and AI: 3 Conversations Companies Need to Be Having by Ried Blackman et a.
+- The article discusses the necessity for companies to have actionable conversations about AI ethics, emphasizing the importance of assembling a senior-level working group comprising technologists, legal experts, ethicists, and business leaders to address ethical risks effectively. It outlines three crucial conversations that companies need to have: defining ethical standards for AI, identifying gaps between current practices and desired standards, and understanding the complex sources of ethical problems to operationalize solutions.
+
+### A Practical Guide to Building Ethical AI by Reid Blackman
+- Companies are increasingly aware of the perils of overlooking ethical concerns in AI development, as illustrated by legal and reputational challenges encountered by industry giants like IBM and Goldman Sachs. To combat these risks, a practical seven-step approach is proposed, emphasizing the utilization of existing infrastructure, customization of frameworks, and cultivation of organizational awareness.
+
+### What is AI Model Governance? by Harrish Doddi
+- Financial institutions utilize data scientists to develop models for functions like fraud prevention, but lack visibility into their deployment and decision-making post-lab. AI model governance aims to bring accountability by tracking model versions, variables, access, behavior metrics, and security, overcoming challenges posed by siloed development and ensuring consistency across organizational environments.
 
 ## References and Sources
 (to-do)
